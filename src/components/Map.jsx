@@ -1,7 +1,7 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
-export default function Map({ data }) {
+export default function Map() {
   const mapStyles = {
     height: '50vh',
     width: '100%',
